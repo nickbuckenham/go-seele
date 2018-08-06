@@ -1,5 +1,5 @@
-# Makefile to build the command lines and tests in Seele project.
-# This Makefile doesn't consider Windows Environment. If you use it in Windows, please be careful.
+# Makefile to build the command lines and tests for the Seele project.
+# This Makefile is not developed for Windows environments. If you use it in Windows, please be careful.
 
 all: discovery node client tool vm
 discovery:
