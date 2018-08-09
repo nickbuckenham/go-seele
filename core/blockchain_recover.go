@@ -18,7 +18,7 @@ import (
 
 var rpLog = log.GetLogger("recoveryPoint")
 
-// recoveryPoint is used for blockchain recovery in case of program crashed when write a block.
+// recoveryPoint is used for blockchain recovery in case the program crashes while writing a block.
 type recoveryPoint struct {
 	WritingBlockHash           common.Hash // block hash that was writing to blockchain.
 	WritingBlockHeight         uint64      // block height that was writing to blockchain.
